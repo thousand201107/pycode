@@ -1,0 +1,6 @@
+import sys
+
+N = int(input(""))
+if N < 1 or N > 5:
+    sys.exit()
+print('A long time ago in a galaxy '+('far '*N)+'away...')
